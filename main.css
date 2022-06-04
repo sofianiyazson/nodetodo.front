@@ -1,0 +1,19 @@
+.mt-20 {
+  margin-top:20px;
+}
+.mt-30 {
+  margin-top:30px;
+}
+table, td, tr, th {
+  border: none;
+}
+th {
+  border: 2px solid #ccc;
+  padding: 3px;
+  font-size: 16px;
+}
+td {
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  padding: 3px;
+}

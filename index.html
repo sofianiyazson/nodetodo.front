@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css" />
+  <title>To-do API</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Welcome to ToDo API</h1>
+
+    <input type="hidden" name="id" value="" id="id" />
+    <input type="text" name="title" id="title" placeholder="Title" />
+    <input type="text" name="description" id="description" placeholder="Description" />
+    <button type="button" id="btn-submit" onclick="submit();">Submit</button>
+    <label id="txt-message"></label>
+    <br/>
+    <br/>
+    <table style="width: 100%;" border="1">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="tbl-todos"></tbody>
+    </table>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
